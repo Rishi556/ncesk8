@@ -2,13 +2,12 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -19,24 +18,36 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="https://telegram.ncesk8.com">
+            Chat with us
           </Link>
         </div>
+        <br />
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="https://facebook.ncesk8.com">
+            Join Our Facebook Group
+          </Link>
+        </div>
+        <br />
+        <section className={styles.features} style={{ marginLeft: "auto", marginRight: "auto" }}>
+          <div className="container" >
+            <video autoPlay={true} loop={true} style={{ maxWidth: "50vw", maxHeight: "85vh" }}><source src="/img/video.mp4" type="video/mp4" />Your browser does not support the video tag.</video>
+          </div>
+        </section>
       </div>
     </header>
   );
 }
 
 export default function Home(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
       </main>
     </Layout>
   );

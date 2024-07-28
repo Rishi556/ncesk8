@@ -1,0 +1,32 @@
+telegram.ncesk8.com telegram.nceskate.com {
+    redir https://t.me/+tIchST-o1eA0OTlh
+}
+
+zello.ncesk8.com zello.nceskate.com {
+    redir https://zello.me/k/i5UOm
+}
+
+ncesk8.com {
+    handle {
+      root * /usr/share/caddy/ncesk8
+      encode gzip
+      try_files {path} /{path}/index.html
+      file_server
+   }
+}
+
+nceskate.com {
+    redir https://ncesk8.com
+}
+
+drive.ncesk8.com drive.nceskate.com {
+    redir https://drive.google.com/drive/folders/132Ink8vnDewtfm7Nzvrjg0ggkrzZPn6d?usp=drive_link
+}
+
+events.ncesk8.com events.nceskate.com {
+    redir https://calendar.google.com/calendar/u/0/r?cid=MjJkMmUyNTI5ZjlhMGI3Mzg5YzVlMmQ5ZDYxYmJjNWI1NTZkZjFjMWEyYWRhYzIwZTNhNmM4ODQ5YTNhNTQwNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
+}
+
+facebook.ncesk8.com facebook.nceskate.com {
+    redir https://www.facebook.com/groups/567376727523444
+}
