@@ -31,6 +31,14 @@ function HomepageHeader() {
           </Link>
         </div>
         <br />
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="https://instagram.ncesk8.com">
+            Follow Us On Instagram
+          </Link>
+        </div>
+        <br />
         <section className={styles.features} style={{ marginLeft: "auto", marginRight: "auto" }}>
           <div className="container" >
             <video autoPlay={true} loop={true} style={{ maxWidth: "50vw", maxHeight: "85vh" }}><source src="/img/video.mp4" type="video/mp4" />Your browser does not support the video tag.</video>

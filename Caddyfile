@@ -30,3 +30,7 @@ events.ncesk8.com events.nceskate.com {
 facebook.ncesk8.com facebook.nceskate.com {
     redir https://www.facebook.com/groups/567376727523444
 }
+
+instagram.ncesk8.com {
+	redir https://www.instagram.com/ncesk8/
+}

@@ -90,6 +90,11 @@ const config: Config = {
           label: 'Facebook',
           position: 'right',
         },
+        {
+          href: 'https://instagram.ncesk8.com',
+          label: 'Instagram',
+          position: 'right',
+        },
       ],
     },
     // footer: {
