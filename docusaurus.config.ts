@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'NCESK8',
-  tagline: 'Come Ride With Us',
+  tagline: '2 time winner of 🏆”SUPER SQUAD of the year” ESK8CON 2023 and 2024',
   favicon: 'img/bradcamera.jpeg',
 
   // Set the production url of your site here
